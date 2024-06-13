@@ -1,0 +1,17 @@
+{
+    "notStarted": [
+        "Feature: Popup - \"You made Changes. Save board?\"",
+        "Feature: Rename Item",
+        "Misc: Unify Popup Creation",
+        "Misc: More/Better Documentation",
+        "Bug Fix: Moving Item Causes Cursor To Disapper Sometimes",
+        "Bug Fix: Long Item Names Will Flow Off Text Boxes"
+    ],
+    "started": [
+        "Feature: Add More Logging"
+    ],
+    "done": [
+        "Bug Fix: LowerCase C Key Doesn't Work In New Item Menu",
+        "Feature: Delete Confirmation"
+    ]
+}
