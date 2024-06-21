@@ -8,7 +8,8 @@
         "Bug Fix: Long Item Names Will Flow Off Text Boxes"
     ],
     "started": [
-        "Feature: Add More Logging"
+        "Feature: Add More Logging",
+        "Bug Fix: Display is messed up until resize (Windows)"
     ],
     "done": [
         "Bug Fix: LowerCase C Key Doesn't Work In New Item Menu",

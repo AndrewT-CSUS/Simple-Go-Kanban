@@ -188,6 +188,14 @@ func buildAllColumKeymaps(g *gocui.Gui, column string) error {
     if err := g.SetKeybinding(column, 'g', gocui.ModNone, regressKanbanItemPopup); err != nil {
         return err
 	}
+    
+    if err := g.SetKeybinding(column, 'L', gocui.ModNone, progressKanbanItemPopup); err != nil {
+        return err
+	}
+	
+    if err := g.SetKeybinding(column, 'H', gocui.ModNone, regressKanbanItemPopup); err != nil {
+        return err
+	}
 
     if err := g.SetKeybinding(column, 'J', gocui.ModNone, moveKanbanItemDown); err != nil {
         return err
@@ -276,7 +284,7 @@ func layout(g *gocui.Gui) error {
 
         v.Frame = false
         _, err =  g.SetViewOnBottom(hintText)
-        fmt.Fprintf(v, "[h] - move left  [j] - move down  [k] - move up  [l] - move right  |  [J] - move item down  [K] - move item up  |  [f] - move item forward  [g] - move item back  |  [q] - quit")
+        fmt.Fprintf(v, "[h] - move left  [j] - move down  [k] - move up  [l] - move right  |  [H], [g] - move item back  [J] - move item down  [K] - move item up  [L], [f] - move item forward |  [q] - quit")
 
 	}
 
