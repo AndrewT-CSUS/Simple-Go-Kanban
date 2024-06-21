@@ -41,9 +41,10 @@ This tool looks for a `kanban.json` file in the current directory. If one is loc
 ## Future Progress
 
 The `kanban.json` file in this repository is used partially as an example as to the format of the file, but also to track the future of the project. Here are a few of the highlights:
-    - Rename Kanban items
-    - Save on exit confirmation, in case you don't want to save your changes (this can be mocked at the moment with `C-c`)
-    - General visual bug fixes 
+
+- Rename Kanban items
+- Save on exit confirmation, in case you don't want to save your changes (this can be mocked at the moment with `C-c`)
+- General visual bug fixes 
 
 ### Credits
 
