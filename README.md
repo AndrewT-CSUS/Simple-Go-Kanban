@@ -1,5 +1,6 @@
 # A Simple Go Kanban Board
 <img src="readMePicture.png" alt="Kanban Bord Example" width=100%>
+
 A simple little Kanban Board, built in Go using [Gocui](https://github.com/jroimartin/gocui)
 
 ## Useage
